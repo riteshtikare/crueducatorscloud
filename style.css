@@ -1,0 +1,539 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    width: 100%;
+    height: 10%;
+    /* position:fixed; */
+    background-color: rgb(83, 148, 30);
+}
+
+#left{
+    color: #ffff;
+}
+
+#left h2{
+    font-family: "playfair display";
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+#right{
+    display: flex;
+    align-items: center;
+    width: 50px;
+    height: 100%;
+    margin-right: 40px;
+    color: #fff;
+    /* background-color: #fff; */
+}
+
+#right a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+#topimg{
+    width: 100%;
+    height: 100%;
+    background-color:black ;
+    background-size: cover;
+    background-position: center;
+    /* background-image: url(images/mainimg.jpg); */
+    background-color: #000;
+}
+
+#opacity{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#opacity h1{
+    position: absolute;
+    top: 35%;
+    left: 12%;
+    font-size: 60px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#opacity h3{
+    position: absolute;
+    top: 63%;
+    left: 12%;
+    font-weight: 500;
+    color: #fff;
+}
+
+#loginpage{
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 75%;
+    background-color: #fff;
+    display: none;
+}
+
+#loginpagecontent{
+    display: flex;
+}
+
+#loginleft{
+    width: 50%;
+    padding: 80px 80px;
+    height: 100%;
+    /* background-color: red; */
+}
+#loginline{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 6%;
+    width: 2px;
+    height: 60%;
+    background-color: #9999;
+}
+#loginright{
+    width: 50%;
+    height: 100%;
+    padding: 80px 80px;
+    position: relative;
+    /* background-color: green; */
+}
+#logincontent{
+    position: relative;
+    width: 90%;
+    height: 80%;
+    /* background-color: #f3f33f; */
+}
+
+#logincontent h2{
+    font-size: 30px;
+    font-weight: 700;
+}
+#logincontent a{
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px 15px;
+    position: absolute;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 650;
+    background-color: red;
+}
+
+#logincontent p{
+    margin-top: 110px;
+}
+#ser{
+    text-transform: capitalize;
+    display: flex;
+}
+#leftul{
+    margin-top: 20px;
+}
+#leftul ul{
+    margin-top: 10px;
+}
+#rightul{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#rightul ul{
+    margin-top: 10px;
+}
+#resetcontent{
+    width: 90%;
+    height: 90%;
+    position: relative;
+    background-color: yellow;
+}
+
+#resetcontent a{
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px 15px;
+    position: absolute;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 650;
+    background-color: red;
+    text-transform: capitalize;
+}
+
+#resetcontent p{
+    position: absolute;
+    top: 110px;
+}
+#resetcontent h5{
+    position: absolute;
+    top: 150px;
+    font-weight: 600;
+    color: #3333;
+}
+
+#para2{
+    margin-top: 40px;
+}
+
+.info{
+    width: 100%;
+    height: 100vh;
+    background-color:#f3f3f3;
+}
+
+.webconf{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    /* margin-top: 50px; */
+    background-color: #f3f3f3;
+}
+
+.webconfcontent{
+    padding: 100px 50px;
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+}
+
+.webconfcontent h2{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+.webconfcontent p{
+    margin-top: 20px;
+    line-height: 40px;
+}
+.webconfimg{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    /* background-color:#f3f3f3; */
+}
+
+.imgbackground{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 70%;
+    background-color: rgb(114, 204, 226);
+}
+
+.imagetalk{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 70%;
+    height: 70%;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 2px 60px 2px rgba(0, 0, 0, 0.6);
+    background-image: url(/images/call-in-action.png);
+    background-color: crimson;
+}
+
+#infohub{
+    margin-top: -10%;
+    width: 100%;
+    height: 100vh;
+    background-color:#f3f3f3;
+}
+
+#curxhub{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    /* margin-top: 50px; */
+    background-color: #f3f3f3;
+}
+
+#hubcontent{
+    padding: 100px 50px;
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+}
+
+#hubcontent h2{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+#hubcontent p{
+    margin-top: 20px;
+    line-height: 40px;
+}
+#hubconfimg{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    /* background-color:#f3f3f3; */
+}
+
+.hubconfimg{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 70%;
+    background-color: rgb(188, 224, 119);
+}
+
+.imagehub{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 70%;
+    height: 70%;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 2px 60px 2px rgba(0, 0, 0, 0.6);
+    background-image: url(/images/sidebar.png);
+    background-color: crimson;
+}
+
+
+#slider{
+    padding: 50px;
+    margin-top: -10%;
+    width: 100%;
+    height: 100%;
+    /* border-radius: 10%; */
+    background-color: #f3f3f3;
+}
+
+
+.container-slider{
+    max-width: 100%;
+    height: 100%;
+    position: relative;
+    /* background-color: red; */
+}
+
+.sliderimg{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;    
+    background-color: royalblue;
+    background-image: url(/images/sidebar.png)}
+    #one{
+    background-image: url(/images/call-in-action.png);    
+}    
+    #two{
+        background-image: url(/images/img.jpg);
+}
+    
+    #three{
+        background-image: url(/images/Flow-as-administrator.png);
+}
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        margin-top: -22px;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+}
+      
+      .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+      }
+      
+      .prev:hover, .next:hover {
+        background-color: rgba(0,0,0,0.8);
+      }
+    
+    
+      .dot {
+        cursor: pointer;
+        height: 10px;
+        width: 10px;
+        margin:0 6px;
+        margin-top: 10px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      .active, .dot:hover {
+        background-color: #717171;
+      }
+    
+    
+      .sliderimg {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: l.5s;
+      }
+      
+      @-webkit-keyframes fade {
+        from {opacity: .5}
+        to {opacity: 2}
+      }
+      
+      @keyframes fade {
+        from {opacity: .5}
+        to {opacity: 2}
+      }
+
+
+#footer{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 80%;
+    padding: 30px 50px;
+    background-color: #252525;
+}
+
+#product{
+    padding: 30px;
+    width: 20%;
+    height: 100%;
+    /* background-color: #fff; */
+}
+
+#product h3{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+#product ul{
+    text-transform: capitalize;
+    margin-top: 20px;
+    color: rgb(184, 183, 183);
+}
+
+ul a{
+    color: rgb(184, 183, 183);
+}
+
+#tools{
+    padding: 30px;
+    width: 20%;
+    height: 100%;
+    /* background-color: #fff; */
+}
+
+#tools h3{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+#tools ul{
+    text-transform: capitalize;
+    margin-top: 20px;
+    color: rgb(184, 183, 183);
+}
+
+#teams{
+    padding: 30px;
+    width: 20%;
+    height: 100%;
+    /* background-color: #fff; */
+}
+
+#teams h3{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+#teams ul{
+    text-transform: capitalize;
+    margin-top: 20px;
+    color: rgb(184, 183, 183);
+}
+
+#about{
+    margin-top: -30px;
+    width: 35%;
+    height: 113%;
+    padding: 60px 30px;
+    background-color: red;
+}
+
+#about h4{
+    color: #fff;
+    font-weight: 400;
+}
+
+#about p{
+    margin-top: 15px;
+    color: #fff;
+    line-height: 30px;
+}
+
+#icon{
+    margin-top: 20%;
+}
+
+#icon i{
+    font-size: 20px;
+    color: #fff;
+    margin-top: 30%;
+    margin-left: 20px;
+}
+
+
+#copyright{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color:#1a1a1a;
+}
+
+#copyright h3{
+    padding: 20px 50px;
+    color: #fff;
+}
+
+#copyright ul{
+    padding: 20px 50px;
+    margin-left: 100px;
+    color: #fff;
+}
